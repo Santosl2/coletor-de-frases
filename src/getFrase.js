@@ -18,7 +18,7 @@ export async function getFrase(_page) {
     if (allAnchors.length > 0) {
       // Pick random anchor
       const randomAnchor =
-        allAnchors[Math.floor(Math.random() * allAnchors.length)];
+        allAnchors[Math.floor(Math.random() * allAnchors.length - 1)];
 
       return randomAnchor.href;
     }
