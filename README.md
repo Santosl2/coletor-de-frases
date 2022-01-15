@@ -11,3 +11,7 @@ Basicamente esse algoritmo vai até a página https://www.frasesdobem.com.br/ e 
 ## Foi usado:
 
 - Lib puppeter-core para usar chrome em headless
+
+
+## Preview:
+![Preview](https://i.imgur.com/fymvXOX.gif)
