@@ -1,5 +1,4 @@
 // Generate a random photo
-
 import api from "../services/api.js";
 
 export default async function getRandomBackgroundImage(querys, apiKey) {

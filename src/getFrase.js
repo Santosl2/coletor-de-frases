@@ -1,6 +1,12 @@
 import { closeWebPage } from "./puppeterOptions/getPage.js";
+
+/**
+ * Faz a captura  da frase
+ * @param {*} _page
+ * @returns string Frase capturada
+ */
 export async function getFrase(_page) {
-  if (_page === undefined) throw new Error("Missing Params");
+  if (_page === undefined) throw new Error("[Get Frase] Missing Params");
 
   const {
     _remoteObject: { value: redirectedPage },
