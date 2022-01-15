@@ -10,9 +10,7 @@ const exePath = chromeExecPaths[process.platform];
 let _page;
 let _browser;
 
-export async function getPage(url) {
-  if (url === undefined) throw new Error("Missing URL");
-
+export async function getPage() {
   _browser = await Puppeteer.launch({
     executablePath: exePath,
     headless: true,
@@ -20,10 +18,6 @@ export async function getPage(url) {
   });
 
   _page = await _browser.newPage();
-
-  await _page.goto(url, {
-    waitUntil: "domcontentloaded",
-  });
 
   return _page;
 }
