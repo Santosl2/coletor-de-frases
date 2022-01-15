@@ -1,0 +1,11 @@
+{
+  "name": "webscrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Matheus Filype",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-core": "^13.0.1"
+  }
+}
