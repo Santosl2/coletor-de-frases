@@ -8,6 +8,8 @@ Basicamente esse algoritmo vai até a página https://www.frasesdobem.com.br/ e 
 
 [X] Gerar uma imagem automática da frase gerada
 
+[X] Publicar no Instagram
+
 ## Foi usado:
 
 - Lib puppeter-core para usar chrome em headless
