@@ -10,7 +10,6 @@ const exePath = chromeExecPaths[process.platform];
 let _page;
 
 async function getData(url) {
-  let frasePage;
   const webPage = await Puppeteer.launch({
     executablePath: exePath,
     headless: true,
