@@ -1,3 +1,4 @@
+import { closeWebPage } from "./puppeterOptions/getPage.js";
 export async function getFrase(_page) {
   if (_page === undefined) throw new Error("Missing Params");
 
@@ -31,6 +32,9 @@ export async function getFrase(_page) {
       return randomPhrase.innerHTML;
     }
   });
+
+  await _page.close();
+  await closeWebPage();
 
   return frase;
 }
