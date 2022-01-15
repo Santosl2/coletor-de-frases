@@ -23,14 +23,12 @@ async function getData(url, background, publishInstagram = false) {
 
   // Pick random URL Anchor
   const frase = await getFrase(_page);
-
   const uuid = await convertToImage(frase, background);
+  console.log("Imagem gerada - UUID " + uuid);
 
   if (publishInstagram) {
     instagramPublish(uuid);
   }
-
-  console.log("Finalizado; imagem " + uuid);
 }
 
 export { getData };

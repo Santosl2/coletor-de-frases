@@ -13,7 +13,7 @@ let _browser;
 export async function getPage() {
   _browser = await Puppeteer.launch({
     executablePath: exePath,
-    headless: true,
+    headless: false,
     args: [],
   });
 

@@ -22,7 +22,7 @@ export async function instagramPublish(imageName) {
   await _page.keyboard.type(process.env.INSTAGRAM_PASSWORD); // digita uma string no input
   await _page.click(".L3NKy"); // clica no botao para logar
 
-  await _page.waitForTimeout(4700);
+  await _page.waitForTimeout(7000);
   await _page.click("button.HoLwm"); // fecha o modal de notificacoes
   await _page.click("._lz6s .QBdPU"); // clica no botao de publicar que esta dentro do header
 
