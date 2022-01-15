@@ -6,7 +6,7 @@ Basicamente esse algoritmo vai até a página https://www.frasesdobem.com.br/ e 
 
 [ ] Multi-thread
 
-[ ] Gerar uma imagem automática da frase gerada
+[X] Gerar uma imagem automática da frase gerada
 
 ## Foi usado:
 
